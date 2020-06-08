@@ -4,15 +4,12 @@ using UnityEngine;
 
 public class Key87 : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+public AudioSource key87;
+private void OnMouseDown() 
+{
     {
-        
+        key87.Play();
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
+}
 }
