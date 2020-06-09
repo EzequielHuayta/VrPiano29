@@ -293,7 +293,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &38796891
 GameObject:
@@ -431,7 +431,7 @@ GameObject:
   - component: {fileID: 43581977}
   - component: {fileID: 43581978}
   m_Layer: 0
-  m_Name: A0 (5)
+  m_Name: C1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -461,7 +461,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 9126f5549c8e1d04a9ede98da56884bd, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 407760eef97b44c4bb4f3e25c40d4171, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -547,131 +547,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!1 &103423127
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 103423128}
-  - component: {fileID: 103423131}
-  - component: {fileID: 103423130}
-  - component: {fileID: 103423129}
-  - component: {fileID: 103423132}
-  - component: {fileID: 103423133}
-  m_Layer: 0
-  m_Name: F
-  m_TagString: Activator
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &103423128
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 103423127}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.65, y: 0.72, z: 0}
-  m_LocalScale: {x: 0.79999995, y: 1, z: 2}
-  m_Children: []
-  m_Father: {fileID: 742860919}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &103423129
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 103423127}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &103423130
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 103423127}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 798b037c8a164634386a4b212d28422b, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &103423131
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 103423127}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &103423132
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 103423127}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 28a640328f245c145909b2c7e3bfc428, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  F_Note: {fileID: 0}
-  keyToPress: 114
---- !u!54 &103423133
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 103423127}
-  serializedVersion: 2
-  m_Mass: 0.0000001
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &133309340
 GameObject:
   m_ObjectHideFlags: 0
@@ -922,113 +797,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.5, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!1 &197054090
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 197054091}
-  - component: {fileID: 197054094}
-  - component: {fileID: 197054093}
-  - component: {fileID: 197054092}
-  - component: {fileID: 197054095}
-  m_Layer: 0
-  m_Name: F#1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &197054091
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 197054090}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.24, y: 1.07, z: -0.23}
-  m_LocalScale: {x: 0.5, y: 1, z: 1.2}
-  m_Children: []
-  m_Father: {fileID: 742860919}
-  m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &197054092
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 197054090}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &197054093
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 197054090}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: f6baae0943ae1404a821779b72794faa, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &197054094
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 197054090}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &197054095
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 197054090}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45a4930ed2dc3c44fac5deed4776ffa1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  F1Major_Note: {fileID: 0}
 --- !u!1 &209167058
 GameObject:
   m_ObjectHideFlags: 0
@@ -1468,470 +1236,135 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &294602701
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 294602702}
+  - component: {fileID: 294602703}
+  m_Layer: 0
+  m_Name: G#-7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &294602702
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 294602701}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -1.34, z: 0.94}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1320352185}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &283403178
-GameObject:
+--- !u!82 &294602703
+AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 283403179}
-  - component: {fileID: 283403182}
-  - component: {fileID: 283403181}
-  - component: {fileID: 283403180}
-  - component: {fileID: 283403183}
-  - component: {fileID: 283403184}
-  m_Layer: 0
-  m_Name: E
-  m_TagString: Activator
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &283403179
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 283403178}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.5, y: 0.72, z: 0}
-  m_LocalScale: {x: 0.8, y: 1, z: 2}
-  m_Children: []
-  m_Father: {fileID: 742860919}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &283403180
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 283403178}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_GameObject: {fileID: 294602701}
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &283403181
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 283403178}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 798b037c8a164634386a4b212d28422b, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &283403182
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 283403178}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &283403183
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 283403178}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c38fa0f5822a23248841fc762bf70cc1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  E_Note: {fileID: 0}
-  keyToPress: 101
---- !u!54 &283403184
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 283403178}
-  serializedVersion: 2
-  m_Mass: 0.0000001
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!1 &314349692
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 314349693}
-  - component: {fileID: 314349696}
-  - component: {fileID: 314349695}
-  - component: {fileID: 314349694}
-  - component: {fileID: 314349697}
-  m_Layer: 0
-  m_Name: D#1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &314349693
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 314349692}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.94, y: 1.07, z: -0.23}
-  m_LocalScale: {x: 0.5, y: 1, z: 1.2}
-  m_Children: []
-  m_Father: {fileID: 742860919}
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &314349694
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 314349692}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &314349695
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 314349692}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: f6baae0943ae1404a821779b72794faa, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &314349696
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 314349692}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &314349697
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 314349692}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee35be1a4cff53845a52fc9a76988ead, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  D1Major_Note: {fileID: 0}
---- !u!1 &365462460
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 365462461}
-  - component: {fileID: 365462464}
-  - component: {fileID: 365462463}
-  - component: {fileID: 365462462}
-  - component: {fileID: 365462465}
-  m_Layer: 0
-  m_Name: A#1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &365462461
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 365462460}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.54, y: 1.07, z: -0.23}
-  m_LocalScale: {x: 0.5, y: 1, z: 1.2}
-  m_Children: []
-  m_Father: {fileID: 742860919}
-  m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &365462462
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 365462460}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &365462463
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 365462460}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: f6baae0943ae1404a821779b72794faa, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &365462464
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 365462460}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &365462465
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 365462460}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6730d66e19f1f544aa681aeb4e8dc8c5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!1 &407355633
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 407355634}
-  - component: {fileID: 407355637}
-  - component: {fileID: 407355636}
-  - component: {fileID: 407355635}
-  - component: {fileID: 407355638}
-  - component: {fileID: 407355639}
-  m_Layer: 0
-  m_Name: B
-  m_TagString: Activator
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &407355634
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 407355633}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.1, y: 0.72, z: 0}
-  m_LocalScale: {x: 0.79999995, y: 1, z: 2}
-  m_Children: []
-  m_Father: {fileID: 742860919}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &407355635
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 407355633}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &407355636
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 407355633}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 798b037c8a164634386a4b212d28422b, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &407355637
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 407355633}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &407355638
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 407355633}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 759c20e911b0a2d409236ac01bfbbad5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  B_Note: {fileID: 0}
---- !u!54 &407355639
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 407355633}
-  serializedVersion: 2
-  m_Mass: 0.0000001
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 9381de5e1ebcd144b835817195142ded, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 1
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &489647064
 GameObject:
   m_ObjectHideFlags: 0
@@ -2182,131 +1615,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &498017333
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 498017334}
-  - component: {fileID: 498017337}
-  - component: {fileID: 498017336}
-  - component: {fileID: 498017335}
-  - component: {fileID: 498017338}
-  - component: {fileID: 498017339}
-  m_Layer: 0
-  m_Name: C
-  m_TagString: Activator
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &498017334
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 498017333}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.2, y: 0.72, z: -0}
-  m_LocalScale: {x: 0.8, y: 1, z: 2}
-  m_Children: []
-  m_Father: {fileID: 742860919}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &498017335
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 498017333}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &498017336
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 498017333}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 798b037c8a164634386a4b212d28422b, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &498017337
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 498017333}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &498017338
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 498017333}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 37eb778fc4e28de4f8026571a83ae8be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  C_Note: {fileID: 525395701}
-  keyToPress: 113
---- !u!54 &498017339
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 498017333}
-  serializedVersion: 2
-  m_Mass: 0.0000001
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &500774076
 GameObject:
   m_ObjectHideFlags: 0
@@ -2967,130 +2275,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &652311290
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 652311291}
-  - component: {fileID: 652311294}
-  - component: {fileID: 652311293}
-  - component: {fileID: 652311292}
-  - component: {fileID: 652311295}
-  - component: {fileID: 652311296}
-  m_Layer: 0
-  m_Name: A
-  m_TagString: Activator
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &652311291
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 652311290}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.95, y: 0.72, z: 0}
-  m_LocalScale: {x: 0.79999995, y: 1, z: 2}
-  m_Children: []
-  m_Father: {fileID: 742860919}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &652311292
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 652311290}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &652311293
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 652311290}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 798b037c8a164634386a4b212d28422b, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &652311294
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 652311290}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &652311295
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 652311290}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9afc9c19e4ea1114a8e14558137e7ecb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  A_Note: {fileID: 0}
---- !u!54 &652311296
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 652311290}
-  serializedVersion: 2
-  m_Mass: 0.0000001
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &712453758
 GameObject:
   m_ObjectHideFlags: 0
@@ -3143,51 +2327,8 @@ Transform:
   - {fileID: 1548584762}
   - {fileID: 209167059}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &742860918
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 742860919}
-  m_Layer: 0
-  m_Name: Piano Keys
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &742860919
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 742860918}
-  m_LocalRotation: {x: -0, y: 0.99988604, z: -0, w: 0.015099408}
-  m_LocalPosition: {x: 0.08, y: 0, z: 1.76}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
-  m_Children:
-  - {fileID: 498017334}
-  - {fileID: 1640467523}
-  - {fileID: 283403179}
-  - {fileID: 103423128}
-  - {fileID: 1560884242}
-  - {fileID: 652311291}
-  - {fileID: 407355634}
-  - {fileID: 1594638286}
-  - {fileID: 1713380525}
-  - {fileID: 314349693}
-  - {fileID: 197054091}
-  - {fileID: 2016462021}
-  - {fileID: 365462461}
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 178.27, z: 0}
 --- !u!1 &764084427
 GameObject:
   m_ObjectHideFlags: 0
@@ -3699,7 +2840,7 @@ GameObject:
   - component: {fileID: 832237495}
   - component: {fileID: 832237496}
   m_Layer: 0
-  m_Name: A0 (4)
+  m_Name: B0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3729,7 +2870,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 9126f5549c8e1d04a9ede98da56884bd, type: 3}
+  m_audioClip: {fileID: 8300000, guid: f4eadffa0e504494a97c807cf1cec1b6, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -4142,7 +3283,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1320352182}
   m_LocalRotation: {x: -0, y: 0.2872772, z: -0, w: 0.95784754}
-  m_LocalPosition: {x: -1.4, y: 1.91, z: -3.6}
+  m_LocalPosition: {x: 14.64, y: 1.91, z: -14.17}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 525395700}
@@ -4152,6 +3293,10 @@ Transform:
   - {fileID: 832237495}
   - {fileID: 43581977}
   - {fileID: 2073417614}
+  - {fileID: 1449630469}
+  - {fileID: 294602702}
+  - {fileID: 1564704448}
+  - {fileID: 1956200959}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 33.390003, z: 0}
@@ -4435,7 +3580,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1427257529
 GameObject:
@@ -4527,8 +3672,135 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &1449630468
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1449630469}
+  - component: {fileID: 1449630470}
+  m_Layer: 0
+  m_Name: A-7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1449630469
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1449630468}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -1.34, z: 0.94}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1320352185}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1449630470
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1449630468}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 7e2d9e430b451684dacdd2bfe7ad8730, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 1
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1498997375
 GameObject:
   m_ObjectHideFlags: 0
@@ -4622,7 +3894,7 @@ RectTransform:
   - {fileID: 570089792}
   - {fileID: 500774077}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -5004,7 +4276,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1560884241
+--- !u!1 &1564704447
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5012,479 +4284,125 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1560884242}
-  - component: {fileID: 1560884245}
-  - component: {fileID: 1560884244}
-  - component: {fileID: 1560884243}
-  - component: {fileID: 1560884246}
-  - component: {fileID: 1560884247}
+  - component: {fileID: 1564704448}
+  - component: {fileID: 1564704449}
   m_Layer: 0
-  m_Name: G
-  m_TagString: Activator
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1560884242
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1560884241}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.8, y: 0.72, z: 0}
-  m_LocalScale: {x: 0.79999995, y: 1, z: 2}
-  m_Children: []
-  m_Father: {fileID: 742860919}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1560884243
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1560884241}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &1560884244
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1560884241}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 798b037c8a164634386a4b212d28422b, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &1560884245
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1560884241}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1560884246
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1560884241}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 713d6b0e3de404d4a9fb005087bb1627, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  G_Note: {fileID: 0}
-  keyToPress: 116
---- !u!54 &1560884247
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1560884241}
-  serializedVersion: 2
-  m_Mass: 0.0000001
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!1 &1594638285
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1594638286}
-  - component: {fileID: 1594638289}
-  - component: {fileID: 1594638288}
-  - component: {fileID: 1594638287}
-  - component: {fileID: 1594638290}
-  - component: {fileID: 1594638291}
-  m_Layer: 0
-  m_Name: C 2
-  m_TagString: Activator
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1594638286
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1594638285}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.75, y: 0.72, z: 0}
-  m_LocalScale: {x: 0.79999995, y: 1, z: 2}
-  m_Children: []
-  m_Father: {fileID: 742860919}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1594638287
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1594638285}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &1594638288
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1594638285}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 798b037c8a164634386a4b212d28422b, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &1594638289
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1594638285}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1594638290
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1594638285}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72634212e7c6d6d41a87c34402994770, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  C2_Note: {fileID: 0}
---- !u!54 &1594638291
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1594638285}
-  serializedVersion: 2
-  m_Mass: 0.0000001
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!1 &1640467522
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1640467523}
-  - component: {fileID: 1640467526}
-  - component: {fileID: 1640467525}
-  - component: {fileID: 1640467524}
-  - component: {fileID: 1640467527}
-  - component: {fileID: 1640467528}
-  m_Layer: 0
-  m_Name: D
-  m_TagString: Activator
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1640467523
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1640467522}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.35, y: 0.72, z: 0}
-  m_LocalScale: {x: 0.79999995, y: 1, z: 2}
-  m_Children: []
-  m_Father: {fileID: 742860919}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1640467524
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1640467522}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &1640467525
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1640467522}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 798b037c8a164634386a4b212d28422b, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &1640467526
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1640467522}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1640467527
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1640467522}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1cbe17933c23c7b47b1f7cdd85603626, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  D_Note: {fileID: 543451126}
-  keyToPress: 119
---- !u!54 &1640467528
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1640467522}
-  serializedVersion: 2
-  m_Mass: 0.0000001
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!1 &1713380524
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1713380525}
-  - component: {fileID: 1713380528}
-  - component: {fileID: 1713380527}
-  - component: {fileID: 1713380526}
-  - component: {fileID: 1713380529}
-  m_Layer: 0
-  m_Name: C#1
+  m_Name: G-7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1713380525
+--- !u!4 &1564704448
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1713380524}
+  m_GameObject: {fileID: 1564704447}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.79, y: 1.07, z: -0.23}
-  m_LocalScale: {x: 0.5, y: 1, z: 1.2}
+  m_LocalPosition: {x: 0, y: -1.34, z: 0.94}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 742860919}
-  m_RootOrder: 8
+  m_Father: {fileID: 1320352185}
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1713380526
-BoxCollider:
+--- !u!82 &1564704449
+AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1713380524}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_GameObject: {fileID: 1564704447}
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &1713380527
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1713380524}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: f6baae0943ae1404a821779b72794faa, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &1713380528
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1713380524}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1713380529
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1713380524}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd907c3630f764944826b56f22e1079d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  C1Major_Note: {fileID: 0}
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: bd0c758f90ab0ea428909c1bfa813c3a, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 1
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1717061490
 GameObject:
   m_ObjectHideFlags: 0
@@ -5874,6 +4792,133 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
+--- !u!1 &1956200958
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1956200959}
+  - component: {fileID: 1956200960}
+  m_Layer: 0
+  m_Name: F#-7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1956200959
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1956200958}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -1.34, z: 0.94}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1320352185}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1956200960
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1956200958}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: f374c71612e19814da1271a7a3287036, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 1
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1969128300
 GameObject:
   m_ObjectHideFlags: 0
@@ -5999,113 +5044,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &2016462020
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2016462021}
-  - component: {fileID: 2016462024}
-  - component: {fileID: 2016462023}
-  - component: {fileID: 2016462022}
-  - component: {fileID: 2016462025}
-  m_Layer: 0
-  m_Name: G#1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2016462021
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2016462020}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.39, y: 1.07, z: -0.23}
-  m_LocalScale: {x: 0.5, y: 1, z: 1.2}
-  m_Children: []
-  m_Father: {fileID: 742860919}
-  m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &2016462022
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2016462020}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &2016462023
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2016462020}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: f6baae0943ae1404a821779b72794faa, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &2016462024
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2016462020}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &2016462025
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2016462020}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 797fd46b73d390f40abf88ef6353260e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  G1Major_Note: {fileID: 0}
 --- !u!1 &2073417613
 GameObject:
   m_ObjectHideFlags: 0
@@ -6117,7 +5055,7 @@ GameObject:
   - component: {fileID: 2073417614}
   - component: {fileID: 2073417615}
   m_Layer: 0
-  m_Name: A0 (6)
+  m_Name: A#-7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6147,7 +5085,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 9126f5549c8e1d04a9ede98da56884bd, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 2c311c412aecd5f4d97b71af8bea2a87, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -6813,10 +5751,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 194222227042320065}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
+  m_Script: {fileID: 11500000, guid: a8059c2b594387143a266cae550aa171, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key1: {fileID: 0}
+  key82: {fileID: 1956200960}
 --- !u!65 &194222227042320067
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7008,7 +5946,6 @@ GameObject:
   - component: {fileID: 176814796745688836}
   - component: {fileID: 238089430463364148}
   - component: {fileID: 238089430463364147}
-  - component: {fileID: 238089430463364146}
   m_Layer: 0
   m_Name: PianoKey.046
   m_TagString: Activator
@@ -7016,19 +5953,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &238089430463364146
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 238089430463364145}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &238089430463364147
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7146,7 +6070,6 @@ GameObject:
   - component: {fileID: 482447494650794128}
   - component: {fileID: 368046921732962409}
   - component: {fileID: 368046921732962408}
-  - component: {fileID: 368046921732962407}
   m_Layer: 0
   m_Name: PianoKey.023
   m_TagString: Activator
@@ -7154,19 +6077,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &368046921732962407
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 368046921732962406}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &368046921732962408
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7231,7 +6141,6 @@ GameObject:
   - component: {fileID: 9105164005541778342}
   - component: {fileID: 411796762359422201}
   - component: {fileID: 411796762359422200}
-  - component: {fileID: 411796762359422199}
   m_Layer: 0
   m_Name: PianoKey.011
   m_TagString: Activator
@@ -7239,19 +6148,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &411796762359422199
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 411796762359422198}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &411796762359422200
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7505,7 +6401,6 @@ GameObject:
   - component: {fileID: 534095400591609826}
   - component: {fileID: 587702464297051501}
   - component: {fileID: 587702464297051500}
-  - component: {fileID: 587702464297051499}
   m_Layer: 0
   m_Name: PianoKey.022
   m_TagString: Activator
@@ -7513,19 +6408,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &587702464297051499
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 587702464297051498}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &587702464297051500
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7582,7 +6464,6 @@ GameObject:
   - component: {fileID: 8320272899509852300}
   - component: {fileID: 597610049146374287}
   - component: {fileID: 597610049146374286}
-  - component: {fileID: 597610049146374285}
   m_Layer: 0
   m_Name: PianoKey.033
   m_TagString: Activator
@@ -7590,19 +6471,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &597610049146374285
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 597610049146374284}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &597610049146374286
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7673,7 +6541,6 @@ GameObject:
   - component: {fileID: 3353062320384081631}
   - component: {fileID: 651648259376700368}
   - component: {fileID: 651648259376700367}
-  - component: {fileID: 651648259376700366}
   m_Layer: 0
   m_Name: PianoKey.025
   m_TagString: Activator
@@ -7681,19 +6548,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &651648259376700366
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 651648259376700365}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &651648259376700367
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7736,7 +6590,6 @@ GameObject:
   - component: {fileID: 2553199430531784428}
   - component: {fileID: 668946641216959693}
   - component: {fileID: 668946641216959692}
-  - component: {fileID: 668946641216959691}
   m_Layer: 0
   m_Name: PianoKey.043
   m_TagString: Activator
@@ -7744,19 +6597,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &668946641216959691
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 668946641216959690}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &668946641216959692
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7902,10 +6742,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 721831044280425452}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
+  m_Script: {fileID: 11500000, guid: e04a6919e69a7694790984fa8339d83e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key1: {fileID: 1336489700}
+  key87: {fileID: 1336489700}
 --- !u!65 &721831044280425454
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8400,7 +7240,6 @@ GameObject:
   - component: {fileID: 7154963508452019387}
   - component: {fileID: 1048798801178718736}
   - component: {fileID: 1048798801178718735}
-  - component: {fileID: 1048798801178718734}
   m_Layer: 0
   m_Name: PianoKey.013
   m_TagString: Activator
@@ -8408,19 +7247,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1048798801178718734
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1048798801178718733}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &1048798801178718735
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8516,7 +7342,6 @@ GameObject:
   - component: {fileID: 445029461011921979}
   - component: {fileID: 1079407748137748837}
   - component: {fileID: 1079407748137748836}
-  - component: {fileID: 1079407748137748835}
   m_Layer: 0
   m_Name: PianoKey.016
   m_TagString: Activator
@@ -8524,19 +7349,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1079407748137748835
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1079407748137748834}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &1079407748137748836
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8727,8 +7539,8 @@ GameObject:
   - component: {fileID: 3492707806674459010}
   - component: {fileID: 1482782179855645772}
   - component: {fileID: 1193598123152110908}
-  - component: {fileID: 1193598123152110907}
   - component: {fileID: 1193598123152110906}
+  - component: {fileID: 1193598123152110907}
   m_Layer: 0
   m_Name: PianoKey.004
   m_TagString: Activator
@@ -8745,10 +7557,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1193598123152110905}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
+  m_Script: {fileID: 11500000, guid: 35b3ede0b8986b145a030f476f9271e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key1: {fileID: 0}
+  key4: {fileID: 43581978}
 --- !u!65 &1193598123152110907
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8854,7 +7666,6 @@ GameObject:
   - component: {fileID: 995665094580316902}
   - component: {fileID: 1333479991481153125}
   - component: {fileID: 1333479991481153124}
-  - component: {fileID: 1333479991481153123}
   m_Layer: 0
   m_Name: PianoKey.061
   m_TagString: Activator
@@ -8862,19 +7673,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1333479991481153123
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1333479991481153122}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &1333479991481153124
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8951,7 +7749,6 @@ GameObject:
   - component: {fileID: 8502036534186388584}
   - component: {fileID: 1427332457388816965}
   - component: {fileID: 1427332457388816964}
-  - component: {fileID: 1427332457388816963}
   m_Layer: 0
   m_Name: PianoKey.053
   m_TagString: Activator
@@ -8959,19 +7756,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1427332457388816963
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1427332457388816962}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &1427332457388816964
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9061,7 +7845,6 @@ GameObject:
   - component: {fileID: 795745305605150229}
   - component: {fileID: 1450985700250812234}
   - component: {fileID: 1450985700250812233}
-  - component: {fileID: 1450985700250812232}
   m_Layer: 0
   m_Name: PianoKey.036
   m_TagString: Activator
@@ -9069,19 +7852,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1450985700250812232
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1450985700250812231}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &1450985700250812233
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9404,7 +8174,6 @@ GameObject:
   - component: {fileID: 129996491461433081}
   - component: {fileID: 1770750840505781773}
   - component: {fileID: 1770750840505781772}
-  - component: {fileID: 1770750840505781771}
   m_Layer: 0
   m_Name: PianoKey.079
   m_TagString: Activator
@@ -9412,19 +8181,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1770750840505781771
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1770750840505781770}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &1770750840505781772
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9503,7 +8259,6 @@ GameObject:
   - component: {fileID: 1857895540524775960}
   - component: {fileID: 1849723649932983789}
   - component: {fileID: 1849723649932983788}
-  - component: {fileID: 1849723649932983787}
   m_Layer: 0
   m_Name: PianoKey.028
   m_TagString: Activator
@@ -9511,19 +8266,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1849723649932983787
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1849723649932983786}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &1849723649932983788
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9644,7 +8386,6 @@ GameObject:
   - component: {fileID: 2995688650454985020}
   - component: {fileID: 1870645017280150943}
   - component: {fileID: 1870645017280150942}
-  - component: {fileID: 1870645017280150941}
   m_Layer: 0
   m_Name: PianoKey.054
   m_TagString: Activator
@@ -9652,19 +8393,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1870645017280150941
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1870645017280150940}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &1870645017280150942
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9707,7 +8435,6 @@ GameObject:
   - component: {fileID: 5903340216636205374}
   - component: {fileID: 1871650229157574831}
   - component: {fileID: 1871650229157574830}
-  - component: {fileID: 1871650229157574829}
   m_Layer: 0
   m_Name: PianoKey.072
   m_TagString: Activator
@@ -9715,19 +8442,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1871650229157574829
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1871650229157574828}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &1871650229157574830
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9944,7 +8658,6 @@ GameObject:
   - component: {fileID: 8633725311721894779}
   - component: {fileID: 1959155193406162468}
   - component: {fileID: 1959155193406162467}
-  - component: {fileID: 1959155193406162466}
   m_Layer: 0
   m_Name: PianoKey.080
   m_TagString: Activator
@@ -9952,19 +8665,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1959155193406162466
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1959155193406162465}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &1959155193406162467
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10225,7 +8925,6 @@ GameObject:
   - component: {fileID: 8253460110796825776}
   - component: {fileID: 2205136695275836935}
   - component: {fileID: 2205136695275836934}
-  - component: {fileID: 2205136695275836933}
   m_Layer: 0
   m_Name: PianoKey.069
   m_TagString: Activator
@@ -10233,19 +8932,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2205136695275836933
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2205136695275836932}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &2205136695275836934
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10912,7 +9598,6 @@ GameObject:
   - component: {fileID: 7004571060132220284}
   - component: {fileID: 2599341555444106667}
   - component: {fileID: 2599341555444106666}
-  - component: {fileID: 2599341555444106665}
   m_Layer: 0
   m_Name: PianoKey.040
   m_TagString: Activator
@@ -10920,19 +9605,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2599341555444106665
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2599341555444106664}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &2599341555444106666
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10975,7 +9647,6 @@ GameObject:
   - component: {fileID: 6957406204748854073}
   - component: {fileID: 2637617585699085143}
   - component: {fileID: 2637617585699085142}
-  - component: {fileID: 2637617585699085141}
   m_Layer: 0
   m_Name: PianoKey.055
   m_TagString: Activator
@@ -10983,19 +9654,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2637617585699085141
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2637617585699085140}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &2637617585699085142
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11085,7 +9743,6 @@ GameObject:
   - component: {fileID: 3525629422239628489}
   - component: {fileID: 2741621974851936981}
   - component: {fileID: 2741621974851936980}
-  - component: {fileID: 2741621974851936979}
   m_Layer: 0
   m_Name: PianoKey.009
   m_TagString: Activator
@@ -11093,19 +9750,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2741621974851936979
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2741621974851936978}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &2741621974851936980
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11309,7 +9953,6 @@ GameObject:
   - component: {fileID: 2566275648989631122}
   - component: {fileID: 2842252091076201676}
   - component: {fileID: 2842252091076201675}
-  - component: {fileID: 2842252091076201674}
   m_Layer: 0
   m_Name: PianoKey.048
   m_TagString: Activator
@@ -11317,19 +9960,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2842252091076201674
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2842252091076201673}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &2842252091076201675
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11574,7 +10204,6 @@ GameObject:
   - component: {fileID: 6464817474168470443}
   - component: {fileID: 3008605502263863510}
   - component: {fileID: 3008605502263863509}
-  - component: {fileID: 3008605502263863508}
   m_Layer: 0
   m_Name: PianoKey.075
   m_TagString: Activator
@@ -11582,19 +10211,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &3008605502263863508
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3008605502263863507}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &3008605502263863509
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11809,7 +10425,6 @@ GameObject:
   - component: {fileID: 1057101817698152456}
   - component: {fileID: 3204579346960445317}
   - component: {fileID: 3204579346960445316}
-  - component: {fileID: 3204579346960445315}
   m_Layer: 0
   m_Name: PianoKey.027
   m_TagString: Activator
@@ -11817,19 +10432,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &3204579346960445315
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3204579346960445314}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &3204579346960445316
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12047,7 +10649,6 @@ GameObject:
   - component: {fileID: 1537356948789944881}
   - component: {fileID: 3328980321650721851}
   - component: {fileID: 3328980321650721850}
-  - component: {fileID: 3328980321650721849}
   m_Layer: 0
   m_Name: PianoKey.051
   m_TagString: Activator
@@ -12055,19 +10656,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &3328980321650721849
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3328980321650721848}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &3328980321650721850
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12342,7 +10930,6 @@ GameObject:
   - component: {fileID: 3699290554696380320}
   - component: {fileID: 3474772341294573312}
   - component: {fileID: 3474772341294573311}
-  - component: {fileID: 3474772341294573310}
   m_Layer: 0
   m_Name: PianoKey.020
   m_TagString: Activator
@@ -12350,19 +10937,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &3474772341294573310
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3474772341294573309}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &3474772341294573311
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12405,7 +10979,6 @@ GameObject:
   - component: {fileID: 6962350409757286805}
   - component: {fileID: 3480561194143776344}
   - component: {fileID: 3480561194143776343}
-  - component: {fileID: 3480561194143776342}
   m_Layer: 0
   m_Name: PianoKey.030
   m_TagString: Activator
@@ -12413,19 +10986,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &3480561194143776342
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3480561194143776341}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &3480561194143776343
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12515,7 +11075,6 @@ GameObject:
   - component: {fileID: 2886574938271228497}
   - component: {fileID: 3492938173518606123}
   - component: {fileID: 3492938173518606122}
-  - component: {fileID: 3492938173518606121}
   m_Layer: 0
   m_Name: PianoKey.060
   m_TagString: Activator
@@ -12523,19 +11082,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &3492938173518606121
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3492938173518606120}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &3492938173518606122
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12700,7 +11246,6 @@ GameObject:
   - component: {fileID: 7146649175566528159}
   - component: {fileID: 3577407686644118802}
   - component: {fileID: 3577407686644118801}
-  - component: {fileID: 3577407686644118800}
   m_Layer: 0
   m_Name: PianoKey.041
   m_TagString: Activator
@@ -12708,19 +11253,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &3577407686644118800
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3577407686644118799}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &3577407686644118801
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12898,7 +11430,6 @@ GameObject:
   - component: {fileID: 3857562487592334732}
   - component: {fileID: 3700549859609622746}
   - component: {fileID: 3700549859609622745}
-  - component: {fileID: 3700549859609622744}
   m_Layer: 0
   m_Name: PianoKey.021
   m_TagString: Activator
@@ -12906,19 +11437,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &3700549859609622744
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3700549859609622743}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &3700549859609622745
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12975,7 +11493,6 @@ GameObject:
   - component: {fileID: 7726121702925811791}
   - component: {fileID: 3715044983695567495}
   - component: {fileID: 3715044983695567494}
-  - component: {fileID: 3715044983695567493}
   m_Layer: 0
   m_Name: PianoKey.050
   m_TagString: Activator
@@ -12983,19 +11500,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &3715044983695567493
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3715044983695567492}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &3715044983695567494
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13190,7 +11694,6 @@ GameObject:
   - component: {fileID: 8449246551566567511}
   - component: {fileID: 3856573359146815767}
   - component: {fileID: 3856573359146815766}
-  - component: {fileID: 3856573359146815765}
   m_Layer: 0
   m_Name: PianoKey.037
   m_TagString: Activator
@@ -13198,19 +11701,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &3856573359146815765
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3856573359146815764}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &3856573359146815766
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13362,7 +11852,6 @@ GameObject:
   - component: {fileID: 5853995136594178174}
   - component: {fileID: 4044989767272645500}
   - component: {fileID: 4044989767272645499}
-  - component: {fileID: 4044989767272645498}
   m_Layer: 0
   m_Name: PianoKey.059
   m_TagString: Activator
@@ -13370,19 +11859,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &4044989767272645498
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4044989767272645497}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &4044989767272645499
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13539,7 +12015,6 @@ GameObject:
   - component: {fileID: 4835067012854074209}
   - component: {fileID: 4169736189683803422}
   - component: {fileID: 4169736189683803421}
-  - component: {fileID: 4169736189683803420}
   m_Layer: 0
   m_Name: PianoKey.067
   m_TagString: Activator
@@ -13547,19 +12022,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &4169736189683803420
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4169736189683803419}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &4169736189683803421
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13671,7 +12133,6 @@ GameObject:
   - component: {fileID: 1166405262070161601}
   - component: {fileID: 4323559790304522354}
   - component: {fileID: 4323559790304522353}
-  - component: {fileID: 4323559790304522352}
   m_Layer: 0
   m_Name: PianoKey.077
   m_TagString: Activator
@@ -13679,19 +12140,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &4323559790304522352
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4323559790304522351}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &4323559790304522353
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13819,7 +12267,6 @@ GameObject:
   - component: {fileID: 794849194331266517}
   - component: {fileID: 4438747513145561711}
   - component: {fileID: 4438747513145561710}
-  - component: {fileID: 4438747513145561709}
   m_Layer: 0
   m_Name: PianoKey.062
   m_TagString: Activator
@@ -13827,19 +12274,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &4438747513145561709
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4438747513145561708}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &4438747513145561710
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13981,7 +12415,6 @@ GameObject:
   - component: {fileID: 1235034671375780492}
   - component: {fileID: 4532911795706501898}
   - component: {fileID: 4532911795706501897}
-  - component: {fileID: 4532911795706501896}
   m_Layer: 0
   m_Name: PianoKey.019
   m_TagString: Activator
@@ -13989,19 +12422,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &4532911795706501896
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4532911795706501895}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &4532911795706501897
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14223,7 +12643,6 @@ GameObject:
   - component: {fileID: 6952498756310975625}
   - component: {fileID: 4652973626773141737}
   - component: {fileID: 4652973626773141736}
-  - component: {fileID: 4652973626773141735}
   m_Layer: 0
   m_Name: PianoKey.008
   m_TagString: Activator
@@ -14231,19 +12650,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &4652973626773141735
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4652973626773141734}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &4652973626773141736
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14428,7 +12834,6 @@ GameObject:
   - component: {fileID: 5181189466292578959}
   - component: {fileID: 4718808144676972911}
   - component: {fileID: 4718808144676972910}
-  - component: {fileID: 4718808144676972909}
   - component: {fileID: 4718808144676972912}
   m_Layer: 0
   m_Name: PianoKey.002
@@ -14437,19 +12842,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &4718808144676972909
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4718808144676972908}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &4718808144676972910
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14636,10 +13028,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 4810662295487126464}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
+  m_Script: {fileID: 11500000, guid: 075df6135fae3cf41a7bf6d3c2ab2d27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key1: {fileID: 0}
+  key85: {fileID: 1449630470}
 --- !u!65 &4810662295487126466
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14778,7 +13170,6 @@ GameObject:
   - component: {fileID: 2149705780709752641}
   - component: {fileID: 4859911496252194696}
   - component: {fileID: 4859911496252194695}
-  - component: {fileID: 4859911496252194694}
   m_Layer: 0
   m_Name: PianoKey.056
   m_TagString: Activator
@@ -14786,19 +13177,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &4859911496252194694
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4859911496252194693}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &4859911496252194695
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15020,7 +13398,6 @@ GameObject:
   - component: {fileID: 1755544834494770394}
   - component: {fileID: 4953821821626584588}
   - component: {fileID: 4953821821626584587}
-  - component: {fileID: 4953821821626584586}
   m_Layer: 0
   m_Name: PianoKey.006
   m_TagString: Activator
@@ -15028,19 +13405,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &4953821821626584586
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4953821821626584585}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &4953821821626584587
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15123,7 +13487,6 @@ GameObject:
   - component: {fileID: 8695942477713809717}
   - component: {fileID: 5008030184822461094}
   - component: {fileID: 5008030184822461093}
-  - component: {fileID: 5008030184822461092}
   m_Layer: 0
   m_Name: PianoKey.005
   m_TagString: Activator
@@ -15131,19 +13494,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &5008030184822461092
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5008030184822461091}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &5008030184822461093
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15269,7 +13619,6 @@ GameObject:
   - component: {fileID: 8241948566763591040}
   - component: {fileID: 5061346290333686204}
   - component: {fileID: 5061346290333686203}
-  - component: {fileID: 5061346290333686202}
   m_Layer: 0
   m_Name: PianoKey.073
   m_TagString: Activator
@@ -15277,19 +13626,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &5061346290333686202
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5061346290333686201}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &5061346290333686203
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15349,10 +13685,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 5070389768888727472}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
+  m_Script: {fileID: 11500000, guid: 04780374173c6e949b0b26408451629a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key1: {fileID: 0}
+  key84: {fileID: 294602703}
 --- !u!65 &5070389768888727474
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15570,7 +13906,6 @@ GameObject:
   - component: {fileID: 8722558899797078749}
   - component: {fileID: 5369555393906995683}
   - component: {fileID: 5369555393906995682}
-  - component: {fileID: 5369555393906995681}
   m_Layer: 0
   m_Name: PianoKey.015
   m_TagString: Activator
@@ -15578,19 +13913,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &5369555393906995681
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5369555393906995680}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &5369555393906995682
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15641,7 +13963,6 @@ GameObject:
   - component: {fileID: 2441513324760083807}
   - component: {fileID: 5417129941523901501}
   - component: {fileID: 5417129941523901500}
-  - component: {fileID: 5417129941523901499}
   m_Layer: 0
   m_Name: PianoKey.070
   m_TagString: Activator
@@ -15649,19 +13970,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &5417129941523901499
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5417129941523901498}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &5417129941523901500
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15759,7 +14067,6 @@ GameObject:
   - component: {fileID: 7542298536665738884}
   - component: {fileID: 5509571263411533147}
   - component: {fileID: 5509571263411533146}
-  - component: {fileID: 5509571263411533145}
   m_Layer: 0
   m_Name: PianoKey.074
   m_TagString: Activator
@@ -15767,19 +14074,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &5509571263411533145
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5509571263411533144}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &5509571263411533146
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16512,7 +14806,6 @@ GameObject:
   - component: {fileID: 3182142904250193217}
   - component: {fileID: 5912559449875439694}
   - component: {fileID: 5912559449875439693}
-  - component: {fileID: 5912559449875439692}
   m_Layer: 0
   m_Name: PianoKey.007
   m_TagString: Activator
@@ -16520,19 +14813,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &5912559449875439692
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5912559449875439691}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &5912559449875439693
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16798,7 +15078,6 @@ GameObject:
   - component: {fileID: 5522153044789254421}
   - component: {fileID: 6130750515111445364}
   - component: {fileID: 6130750515111445363}
-  - component: {fileID: 6130750515111445362}
   m_Layer: 0
   m_Name: PianoKey.029
   m_TagString: Activator
@@ -16806,19 +15085,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &6130750515111445362
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6130750515111445361}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &6130750515111445363
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16914,7 +15180,6 @@ GameObject:
   - component: {fileID: 3635656847726046425}
   - component: {fileID: 6174730905093299420}
   - component: {fileID: 6174730905093299419}
-  - component: {fileID: 6174730905093299418}
   m_Layer: 0
   m_Name: PianoKey.068
   m_TagString: Activator
@@ -16922,19 +15187,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &6174730905093299418
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6174730905093299417}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &6174730905093299419
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17009,7 +15261,6 @@ GameObject:
   - component: {fileID: 6051458858524984777}
   - component: {fileID: 6211726501024683623}
   - component: {fileID: 6211726501024683622}
-  - component: {fileID: 6211726501024683621}
   m_Layer: 0
   m_Name: PianoKey.031
   m_TagString: Activator
@@ -17017,19 +15268,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &6211726501024683621
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6211726501024683620}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &6211726501024683622
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17220,10 +15458,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 6322982248448635665}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
+  m_Script: {fileID: 11500000, guid: 2abb9872ddd2a66408f89e1b202971b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key1: {fileID: 525395701}
+  key88: {fileID: 525395701}
 --- !u!65 &6322982248448635667
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17479,7 +15717,6 @@ GameObject:
   - component: {fileID: 44537224795823144}
   - component: {fileID: 6484481690495263061}
   - component: {fileID: 6484481690495263060}
-  - component: {fileID: 6484481690495263059}
   m_Layer: 0
   m_Name: PianoKey.018
   m_TagString: Activator
@@ -17487,19 +15724,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &6484481690495263059
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6484481690495263058}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &6484481690495263060
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17682,7 +15906,6 @@ GameObject:
   - component: {fileID: 3856568488426241115}
   - component: {fileID: 6549379247926587507}
   - component: {fileID: 6549379247926587506}
-  - component: {fileID: 6549379247926587505}
   m_Layer: 0
   m_Name: PianoKey.014
   m_TagString: Activator
@@ -17690,19 +15913,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &6549379247926587505
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6549379247926587504}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &6549379247926587506
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17871,7 +16081,6 @@ GameObject:
   - component: {fileID: 8694530777767922635}
   - component: {fileID: 6737795573956919222}
   - component: {fileID: 6737795573956919221}
-  - component: {fileID: 6737795573956919220}
   m_Layer: 0
   m_Name: PianoKey.039
   m_TagString: Activator
@@ -17879,19 +16088,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &6737795573956919220
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6737795573956919219}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &6737795573956919221
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18032,7 +16228,6 @@ GameObject:
   - component: {fileID: 3643255829179726325}
   - component: {fileID: 6817547808869419631}
   - component: {fileID: 6817547808869419630}
-  - component: {fileID: 6817547808869419629}
   m_Layer: 0
   m_Name: PianoKey.066
   m_TagString: Activator
@@ -18040,19 +16235,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &6817547808869419629
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6817547808869419628}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &6817547808869419630
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18111,7 +16293,6 @@ GameObject:
   - component: {fileID: 133641273904970734}
   - component: {fileID: 6861255161198504901}
   - component: {fileID: 6861255161198504900}
-  - component: {fileID: 6861255161198504899}
   m_Layer: 0
   m_Name: PianoKey.032
   m_TagString: Activator
@@ -18119,19 +16300,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &6861255161198504899
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6861255161198504898}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &6861255161198504900
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18280,10 +16448,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 6942602077693992023}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
+  m_Script: {fileID: 11500000, guid: a34cc806ce075f443b100a2db1bc50bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key1: {fileID: 0}
+  key86: {fileID: 2073417615}
 --- !u!65 &6942602077693992025
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18561,7 +16729,6 @@ GameObject:
   - component: {fileID: 6143831823450733845}
   - component: {fileID: 7045976261236160001}
   - component: {fileID: 7045976261236160000}
-  - component: {fileID: 7045976261236159999}
   m_Layer: 0
   m_Name: PianoKey.017
   m_TagString: Activator
@@ -18569,19 +16736,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &7045976261236159999
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7045976261236159998}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &7045976261236160000
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18731,7 +16885,6 @@ GameObject:
   - component: {fileID: 4226973912852409965}
   - component: {fileID: 7146355399349240939}
   - component: {fileID: 7146355399349240938}
-  - component: {fileID: 7146355399349240937}
   m_Layer: 0
   m_Name: PianoKey.063
   m_TagString: Activator
@@ -18739,19 +16892,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &7146355399349240937
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7146355399349240936}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &7146355399349240938
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18911,7 +17051,6 @@ GameObject:
   - component: {fileID: 1443095204457918363}
   - component: {fileID: 7166336798821285024}
   - component: {fileID: 7166336798821285023}
-  - component: {fileID: 7166336798821285022}
   m_Layer: 0
   m_Name: PianoKey.045
   m_TagString: Activator
@@ -18919,19 +17058,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &7166336798821285022
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7166336798821285021}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &7166336798821285023
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19004,7 +17130,6 @@ GameObject:
   - component: {fileID: 9010461615334768012}
   - component: {fileID: 7194035671891151450}
   - component: {fileID: 7194035671891151449}
-  - component: {fileID: 7194035671891151448}
   m_Layer: 0
   m_Name: PianoKey.012
   m_TagString: Activator
@@ -19012,19 +17137,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &7194035671891151448
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7194035671891151447}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &7194035671891151449
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19083,7 +17195,6 @@ GameObject:
   - component: {fileID: 4685378628843333063}
   - component: {fileID: 7235803451008593762}
   - component: {fileID: 7235803451008593761}
-  - component: {fileID: 7235803451008593760}
   m_Layer: 0
   m_Name: PianoKey.065
   m_TagString: Activator
@@ -19091,19 +17202,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &7235803451008593760
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7235803451008593759}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &7235803451008593761
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19414,7 +17512,6 @@ GameObject:
   - component: {fileID: 6672432002833779433}
   - component: {fileID: 7551247598256028015}
   - component: {fileID: 7551247598256028014}
-  - component: {fileID: 7551247598256028013}
   m_Layer: 0
   m_Name: PianoKey.064
   m_TagString: Activator
@@ -19422,19 +17519,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &7551247598256028013
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7551247598256028012}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &7551247598256028014
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19477,7 +17561,6 @@ GameObject:
   - component: {fileID: 7150338244074120055}
   - component: {fileID: 7553216257707547138}
   - component: {fileID: 7553216257707547137}
-  - component: {fileID: 7553216257707547136}
   m_Layer: 0
   m_Name: PianoKey.078
   m_TagString: Activator
@@ -19485,19 +17568,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &7553216257707547136
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7553216257707547135}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &7553216257707547137
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19827,7 +17897,6 @@ GameObject:
   - component: {fileID: 40844596407007453}
   - component: {fileID: 7912828460210857769}
   - component: {fileID: 7912828460210857768}
-  - component: {fileID: 7912828460210857767}
   m_Layer: 0
   m_Name: PianoKey.052
   m_TagString: Activator
@@ -19835,19 +17904,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &7912828460210857767
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7912828460210857766}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &7912828460210857768
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20063,7 +18119,6 @@ GameObject:
   - component: {fileID: 2787424898420795168}
   - component: {fileID: 8062269431753995780}
   - component: {fileID: 8062269431753995779}
-  - component: {fileID: 8062269431753995778}
   m_Layer: 0
   m_Name: PianoKey.038
   m_TagString: Activator
@@ -20071,19 +18126,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &8062269431753995778
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8062269431753995777}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &8062269431753995779
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20297,10 +18339,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 8188909804385222608}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
+  m_Script: {fileID: 11500000, guid: 35cc880285ae05540be7d5b071c59ecc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key1: {fileID: 0}
+  key83: {fileID: 1564704449}
 --- !u!65 &8188909804385222610
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20396,10 +18438,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 8196859281284143518}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
+  m_Script: {fileID: 11500000, guid: f42cd1eac36ecb64ba50856058408e9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key1: {fileID: 0}
+  key3: {fileID: 832237496}
 --- !u!65 &8196859281284143520
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20759,7 +18801,6 @@ GameObject:
   - component: {fileID: 6540098055390298196}
   - component: {fileID: 8361129119641777690}
   - component: {fileID: 8361129119641777689}
-  - component: {fileID: 8361129119641777688}
   m_Layer: 0
   m_Name: PianoKey.042
   m_TagString: Activator
@@ -20767,19 +18808,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &8361129119641777688
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8361129119641777687}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &8361129119641777689
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21156,7 +19184,6 @@ GameObject:
   - component: {fileID: 7635925987416404244}
   - component: {fileID: 8687016769184383117}
   - component: {fileID: 8687016769184383116}
-  - component: {fileID: 8687016769184383115}
   m_Layer: 0
   m_Name: PianoKey.071
   m_TagString: Activator
@@ -21164,19 +19191,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &8687016769184383115
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8687016769184383114}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &8687016769184383116
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21344,7 +19358,6 @@ GameObject:
   - component: {fileID: 3728545738407685716}
   - component: {fileID: 8725871494947628185}
   - component: {fileID: 8725871494947628184}
-  - component: {fileID: 8725871494947628183}
   m_Layer: 0
   m_Name: PianoKey.034
   m_TagString: Activator
@@ -21352,19 +19365,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &8725871494947628183
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8725871494947628182}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &8725871494947628184
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21437,7 +19437,6 @@ GameObject:
   - component: {fileID: 8065823272195149741}
   - component: {fileID: 8768253891637340332}
   - component: {fileID: 8768253891637340331}
-  - component: {fileID: 8768253891637340330}
   m_Layer: 0
   m_Name: PianoKey.076
   m_TagString: Activator
@@ -21445,19 +19444,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &8768253891637340330
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8768253891637340329}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &8768253891637340331
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21514,7 +19500,6 @@ GameObject:
   - component: {fileID: 6025360923236704766}
   - component: {fileID: 8780359443022955733}
   - component: {fileID: 8780359443022955732}
-  - component: {fileID: 8780359443022955731}
   m_Layer: 0
   m_Name: PianoKey.026
   m_TagString: Activator
@@ -21522,19 +19507,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &8780359443022955731
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8780359443022955730}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &8780359443022955732
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21577,7 +19549,6 @@ GameObject:
   - component: {fileID: 8326405675906377949}
   - component: {fileID: 8787725126631366472}
   - component: {fileID: 8787725126631366471}
-  - component: {fileID: 8787725126631366470}
   m_Layer: 0
   m_Name: PianoKey.049
   m_TagString: Activator
@@ -21585,19 +19556,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &8787725126631366470
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8787725126631366469}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &8787725126631366471
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21697,7 +19655,6 @@ GameObject:
   - component: {fileID: 7307655596584863093}
   - component: {fileID: 8802287953113027787}
   - component: {fileID: 8802287953113027786}
-  - component: {fileID: 8802287953113027785}
   m_Layer: 0
   m_Name: PianoKey.010
   m_TagString: Activator
@@ -21705,19 +19662,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &8802287953113027785
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8802287953113027784}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &8802287953113027786
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21782,7 +19726,6 @@ GameObject:
   - component: {fileID: 855069482208516192}
   - component: {fileID: 8850895824960239568}
   - component: {fileID: 8850895824960239567}
-  - component: {fileID: 8850895824960239566}
   m_Layer: 0
   m_Name: PianoKey.081
   m_TagString: Activator
@@ -21790,19 +19733,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &8850895824960239566
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8850895824960239565}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &8850895824960239567
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21845,7 +19775,6 @@ GameObject:
   - component: {fileID: 8477498645570746950}
   - component: {fileID: 8871695045167560125}
   - component: {fileID: 8871695045167560124}
-  - component: {fileID: 8871695045167560123}
   m_Layer: 0
   m_Name: PianoKey.057
   m_TagString: Activator
@@ -21853,19 +19782,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &8871695045167560123
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8871695045167560122}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &8871695045167560124
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21908,7 +19824,6 @@ GameObject:
   - component: {fileID: 3522483723526960241}
   - component: {fileID: 8897118648257925398}
   - component: {fileID: 8897118648257925397}
-  - component: {fileID: 8897118648257925396}
   m_Layer: 0
   m_Name: PianoKey.044
   m_TagString: Activator
@@ -21916,19 +19831,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &8897118648257925396
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8897118648257925395}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &8897118648257925397
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21971,7 +19873,6 @@ GameObject:
   - component: {fileID: 3293363321628549677}
   - component: {fileID: 8904636066825899375}
   - component: {fileID: 8904636066825899374}
-  - component: {fileID: 8904636066825899373}
   m_Layer: 0
   m_Name: PianoKey.047
   m_TagString: Activator
@@ -21979,19 +19880,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &8904636066825899373
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8904636066825899372}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &8904636066825899374
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22095,7 +19983,6 @@ GameObject:
   - component: {fileID: 19971667617816849}
   - component: {fileID: 9004137465366424244}
   - component: {fileID: 9004137465366424243}
-  - component: {fileID: 9004137465366424242}
   m_Layer: 0
   m_Name: PianoKey.024
   m_TagString: Activator
@@ -22103,19 +19990,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &9004137465366424242
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9004137465366424241}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &9004137465366424243
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22215,7 +20089,6 @@ GameObject:
   - component: {fileID: 5679968362671496366}
   - component: {fileID: 9043460657787265404}
   - component: {fileID: 9043460657787265403}
-  - component: {fileID: 9043460657787265402}
   m_Layer: 0
   m_Name: PianoKey.035
   m_TagString: Activator
@@ -22223,19 +20096,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &9043460657787265402
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9043460657787265401}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &9043460657787265403
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22278,7 +20138,6 @@ GameObject:
   - component: {fileID: 5898357788119873853}
   - component: {fileID: 9046678104577936294}
   - component: {fileID: 9046678104577936293}
-  - component: {fileID: 9046678104577936292}
   m_Layer: 0
   m_Name: PianoKey.058
   m_TagString: Activator
@@ -22286,19 +20145,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &9046678104577936292
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9046678104577936291}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: {fileID: 0}
 --- !u!65 &9046678104577936293
 BoxCollider:
   m_ObjectHideFlags: 0
