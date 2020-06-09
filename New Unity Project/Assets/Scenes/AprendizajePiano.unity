@@ -15924,6 +15924,7 @@ GameObject:
   - component: {fileID: 7914555612495044446}
   - component: {fileID: 4906433531177052986}
   - component: {fileID: 482447494650794128}
+  - component: {fileID: 368046921732962407}
   - component: {fileID: 368046921732962409}
   - component: {fileID: 368046921732962408}
   m_Layer: 0
@@ -15933,6 +15934,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &368046921732962407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 368046921732962406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea4b37f82e332e14ab19780f30e8dd0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key23: {fileID: 135416434}
 --- !u!65 &368046921732962408
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15996,6 +16010,7 @@ GameObject:
   - component: {fileID: 1211770374854075967}
   - component: {fileID: 9105164005541778342}
   - component: {fileID: 411796762359422201}
+  - component: {fileID: 411796762359422199}
   - component: {fileID: 411796762359422200}
   m_Layer: 0
   m_Name: PianoKey.011
@@ -16004,6 +16019,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &411796762359422199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 411796762359422198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d20432c44a3fd5841807bb331d50f69a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key11: {fileID: 1172368612}
 --- !u!65 &411796762359422200
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16396,6 +16424,7 @@ GameObject:
   - component: {fileID: 3954820026196813676}
   - component: {fileID: 3353062320384081631}
   - component: {fileID: 651648259376700368}
+  - component: {fileID: 651648259376700366}
   - component: {fileID: 651648259376700367}
   m_Layer: 0
   m_Name: PianoKey.025
@@ -16404,6 +16433,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &651648259376700366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 651648259376700365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfcd7f7a89a0ade42b4653508fdb4188, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key25: {fileID: 657564005}
 --- !u!65 &651648259376700367
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17096,6 +17138,7 @@ GameObject:
   - component: {fileID: 7154963508452019387}
   - component: {fileID: 1048798801178718736}
   - component: {fileID: 1048798801178718735}
+  - component: {fileID: 1048798801178718734}
   m_Layer: 0
   m_Name: PianoKey.013
   m_TagString: Activator
@@ -17103,6 +17146,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1048798801178718734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1048798801178718733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81ebce6ab58734245baf947e51688bc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key13: {fileID: 141051564}
 --- !u!65 &1048798801178718735
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17196,6 +17252,7 @@ GameObject:
   - component: {fileID: 5208893749336760556}
   - component: {fileID: 2951576829796284473}
   - component: {fileID: 445029461011921979}
+  - component: {fileID: 1079407748137748835}
   - component: {fileID: 1079407748137748837}
   - component: {fileID: 1079407748137748836}
   m_Layer: 0
@@ -17205,6 +17262,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1079407748137748835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1079407748137748834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 324669f741d9d9743ab7005ae224fe1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key16: {fileID: 365936298}
 --- !u!65 &1079407748137748836
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19598,6 +19668,7 @@ GameObject:
   - component: {fileID: 7330303693606160600}
   - component: {fileID: 3525629422239628489}
   - component: {fileID: 2741621974851936981}
+  - component: {fileID: 2741621974851936979}
   - component: {fileID: 2741621974851936980}
   m_Layer: 0
   m_Name: PianoKey.009
@@ -19606,6 +19677,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &2741621974851936979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2741621974851936978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e6767e642b0e04699dba6446319f3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key9: {fileID: 990816878}
 --- !u!65 &2741621974851936980
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20786,6 +20870,7 @@ GameObject:
   - component: {fileID: 3699290554696380320}
   - component: {fileID: 3474772341294573312}
   - component: {fileID: 3474772341294573311}
+  - component: {fileID: 3474772341294573310}
   m_Layer: 0
   m_Name: PianoKey.020
   m_TagString: Activator
@@ -20793,6 +20878,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &3474772341294573310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3474772341294573309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 870e45fa04a76cc4abe24198efa3c498, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key20: {fileID: 2104352050}
 --- !u!65 &3474772341294573311
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21285,6 +21383,7 @@ GameObject:
   - component: {fileID: 2240513980938379297}
   - component: {fileID: 3857562487592334732}
   - component: {fileID: 3700549859609622746}
+  - component: {fileID: 3700549859609622744}
   - component: {fileID: 3700549859609622745}
   m_Layer: 0
   m_Name: PianoKey.021
@@ -21293,6 +21392,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &3700549859609622744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3700549859609622743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb9706a474912343b2983c218dfa55f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key21: {fileID: 261037077}
 --- !u!65 &3700549859609622745
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22498,6 +22610,7 @@ GameObject:
   - component: {fileID: 7126634882653994404}
   - component: {fileID: 6952498756310975625}
   - component: {fileID: 4652973626773141737}
+  - component: {fileID: 4652973626773141735}
   - component: {fileID: 4652973626773141736}
   m_Layer: 0
   m_Name: PianoKey.008
@@ -22506,6 +22619,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &4652973626773141735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4652973626773141734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36cf9a3f9dab47845a0b3764a6e973ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key8: {fileID: 498714690}
 --- !u!65 &4652973626773141736
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23251,6 +23377,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7167125472993712247}
   - component: {fileID: 2546672600538893228}
+  - component: {fileID: 4953821821626584586}
   - component: {fileID: 1755544834494770394}
   - component: {fileID: 4953821821626584588}
   - component: {fileID: 4953821821626584587}
@@ -23261,6 +23388,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &4953821821626584586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4953821821626584585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52997d9b89ee4c5488db1e9d35742195, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key6: {fileID: 1836210619}
 --- !u!65 &4953821821626584587
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23343,6 +23483,7 @@ GameObject:
   - component: {fileID: 8695942477713809717}
   - component: {fileID: 5008030184822461094}
   - component: {fileID: 5008030184822461093}
+  - component: {fileID: 5008030184822461092}
   m_Layer: 0
   m_Name: PianoKey.005
   m_TagString: Activator
@@ -23350,6 +23491,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &5008030184822461092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5008030184822461091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6021af68a52c51b47a574715133b2cf8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key5: {fileID: 751812371}
 --- !u!65 &5008030184822461093
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23760,6 +23914,7 @@ GameObject:
   - component: {fileID: 606429747266733018}
   - component: {fileID: 1751748739786401971}
   - component: {fileID: 8722558899797078749}
+  - component: {fileID: 5369555393906995681}
   - component: {fileID: 5369555393906995683}
   - component: {fileID: 5369555393906995682}
   m_Layer: 0
@@ -23769,6 +23924,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &5369555393906995681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5369555393906995680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c87e4ddd9d858d479fd070ddcb141af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key15: {fileID: 622816707}
 --- !u!65 &5369555393906995682
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25403,6 +25571,7 @@ GameObject:
   - component: {fileID: 6450997186956746003}
   - component: {fileID: 6450997186956746005}
   - component: {fileID: 6450997186956746004}
+  - component: {fileID: 6450997186956746006}
   m_Layer: 0
   m_Name: PianoKey.001
   m_TagString: Activator
@@ -25499,6 +25668,19 @@ HingeJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
+--- !u!114 &6450997186956746006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6450997186956746000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 927f8c449d3fbef4daeb533a032b823f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key1: {fileID: 543451126}
 --- !u!4 &6460822363084877146
 Transform:
   m_ObjectHideFlags: 0
@@ -25573,6 +25755,7 @@ GameObject:
   - component: {fileID: 44537224795823144}
   - component: {fileID: 6484481690495263061}
   - component: {fileID: 6484481690495263060}
+  - component: {fileID: 6484481690495263059}
   m_Layer: 0
   m_Name: PianoKey.018
   m_TagString: Activator
@@ -25580,6 +25763,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &6484481690495263059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6484481690495263058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67f8e0cb5143a404e9cfdce7ae923867, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key18: {fileID: 1407722023}
 --- !u!65 &6484481690495263060
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26985,6 +27181,7 @@ GameObject:
   - component: {fileID: 2257468326408999733}
   - component: {fileID: 9010461615334768012}
   - component: {fileID: 7194035671891151450}
+  - component: {fileID: 7194035671891151448}
   - component: {fileID: 7194035671891151449}
   m_Layer: 0
   m_Name: PianoKey.012
@@ -26993,6 +27190,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &7194035671891151448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7194035671891151447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e31bbd3cf2e3d7b4f9e7e1dbe65f56e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key12: {fileID: 1260395050}
 --- !u!65 &7194035671891151449
 BoxCollider:
   m_ObjectHideFlags: 0
