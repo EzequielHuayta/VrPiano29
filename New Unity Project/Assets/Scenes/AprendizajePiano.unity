@@ -9506,7 +9506,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1320352182}
   m_LocalRotation: {x: -0, y: 0.2872772, z: -0, w: 0.95784754}
-  m_LocalPosition: {x: 14.64, y: 1.91, z: -14.17}
+  m_LocalPosition: {x: -2.21, y: 1.91, z: -2.36}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 543451127}
@@ -13864,7 +13864,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1934470077}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.897, y: 1.1539, z: -0.052}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5625832718132142617}
@@ -25569,9 +25569,9 @@ GameObject:
   - component: {fileID: 6450997186956746001}
   - component: {fileID: 6450997186956746002}
   - component: {fileID: 6450997186956746003}
+  - component: {fileID: 6450997186956746006}
   - component: {fileID: 6450997186956746005}
   - component: {fileID: 6450997186956746004}
-  - component: {fileID: 6450997186956746006}
   m_Layer: 0
   m_Name: PianoKey.001
   m_TagString: Activator
@@ -25617,7 +25617,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.01
   m_UseGravity: 0
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -25628,9 +25628,9 @@ ConstantForce:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6450997186956746000}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Force: {x: 0, y: 0, z: 0}
-  m_RelativeForce: {x: 0, y: 1, z: 0}
+  m_RelativeForce: {x: 0, y: 0, z: 0}
   m_Torque: {x: 0, y: 0, z: 0}
   m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!59 &6450997186956746005
@@ -25641,13 +25641,13 @@ HingeJoint:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6450997186956746000}
   m_ConnectedBody: {fileID: 1934470079}
-  m_Anchor: {x: 0, y: 0.000018000312, z: 0}
-  m_Axis: {x: 1, y: 0, z: 0}
+  m_Anchor: {x: 0, y: -0.00001800031, z: -0.0004}
+  m_Axis: {x: 0, y: -1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.9020638, y: 1.0167363, z: -0.053798027}
-  m_UseSpring: 1
+  m_ConnectedAnchor: {x: -0.005063832, y: -0.14076388, z: -0.041798025}
+  m_UseSpring: 0
   m_Spring:
-    spring: 5
+    spring: 0
     damper: 0
     targetPosition: 0
   m_UseMotor: 0
@@ -25655,7 +25655,7 @@ HingeJoint:
     targetVelocity: 0
     force: 0
     freeSpin: 0
-  m_UseLimits: 1
+  m_UseLimits: 0
   m_Limits:
     min: 0
     max: 0
@@ -25664,7 +25664,7 @@ HingeJoint:
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
-  m_EnableCollision: 1
+  m_EnableCollision: 0
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
