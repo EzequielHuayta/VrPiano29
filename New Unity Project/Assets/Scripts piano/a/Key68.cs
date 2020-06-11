@@ -5,11 +5,18 @@ using UnityEngine;
 public class Key68 : MonoBehaviour
 {
 public AudioSource key68;
+public Rigidbody rb;
 private void OnMouseDown() 
 {
-    {
-        key68.Play();
-    }
-    
+
+  transform.Rotate(-4,0,0);
+    rb.isKinematic=true;
+      key68.Play();
+
+}    
+
+private void OnMouseUp() {
+  key68.Stop();
+  rb.isKinematic=false;
 }
 }

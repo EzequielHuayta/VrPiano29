@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
@@ -13,8 +13,8 @@ public int scorePerNote = 100;
 public int miss = 0;
 public int actualmiss = 1;
 public static GameManager instance;
-public Text scoreText;
-public Text missText;
+public TextMeshProUGUI scoreText;
+public TextMeshProUGUI missText;
     // Start is called before the first frame update
 
     void Start()
